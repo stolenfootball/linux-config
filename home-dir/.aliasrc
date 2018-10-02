@@ -1,0 +1,17 @@
+# Aliases user in any bourne shell
+
+alias ls="ls --color"
+alias ..="cd .."
+alias bb="cd -"
+alias exe="chmod +x"
+alias targz="tar -xvzf"
+alias tarbz="tar -xvjf"
+alias recolor="eval \"$(dircolors ~/.dircolors)\""
+alias la="ls -a"
+alias ll="ls -l"
+alias fuse="sudo pacman -S"
+alias mount="sudo mount -v"
+alias umount="sudo umount -v"
+alias off="sudo shutdown -hP now"
+alias reboot="sudo reboot"
+alias nap="sudo pm-suspend"
